@@ -12,7 +12,7 @@ patterns = {
     "hashtags": r'#\w+'
 }
 
-# Extract and display each type of information
+#For extracting and displaying each type of information
 for key, pattern in patterns.items():
     matches = re.findall(pattern, text)
     unique_matches = sorted(set(matches))
