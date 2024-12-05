@@ -1,4 +1,4 @@
-# Information Extraction Regular expression
+# Information Extraction using Regular expression
 
 This Python script uses regular expressions to extract specific types of information from a given text, including:
 - Email addresses
